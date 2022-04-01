@@ -19,8 +19,9 @@
 import numpy
 import matplotlib.pyplot as plt
 
-x = [5,2,5,100,78,52,65]
-y = [85,85,214,6654,487,45,85]
+x = numpy.random.normal(5,1, 1000)
+y = numpy.random.normal(10,2, 1000)
+
 #print (x)
 plt.scatter(x,y)
 plt.show()
