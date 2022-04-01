@@ -19,8 +19,8 @@
 import numpy
 import matplotlib.pyplot as plt
 
-x = numpy.random.uniform(0,5, 1000)
-
+x = [5,2,5,100,78,52,65]
+y = [85,85,214,6654,487,45,85]
 #print (x)
-plt.hist(x,5)
+plt.scatter(x,y)
 plt.show()
